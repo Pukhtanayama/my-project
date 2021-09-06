@@ -1,0 +1,299 @@
+html{
+  font-size: 16px;
+}
+
+body{
+    overflow-x: hidden;
+    /* background-color: rgb(233, 229, 229); */
+    font-family: 'Roboto Black', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+.header{
+    max-width: 100%;
+    height: 12vh;
+    background-color: #030561;
+    z-index: 2;
+    bottom: 0;
+    top: 0;
+    position: relative;
+
+}
+
+.logo img{
+    height: 25vh;
+    max-width:  25vh;
+    position: relative;
+    border: 1.2vh solid #030561;
+    top: 3vh;
+}
+
+
+
+
+ @media(max-width:700px){
+
+ .logo img{
+    height: 17vh;
+    width:  17vh;
+    border: 1vw solid #030561;
+ }
+ 
+
+
+ }
+
+.first{
+    background-color: rgb(233, 229, 229);
+    width: 100%;
+    z-index: 1;
+    bottom: 0;
+    top: 0;
+    position: sticky;
+}
+
+
+.navbar{
+  background-color: rgb(136, 125, 125);
+position: sticky;
+width: 100%;
+height: auto;
+display: flex;
+flex: 1 1 100;
+z-index: -1;
+
+ }
+
+
+
+
+/* --------------------------------------Header Section---------------------- */
+
+
+.nav-link{
+    color: white !important;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    
+}
+.nav-link::after{
+    content: '';
+    width: 0;
+    height: 0.2rem;
+    margin: auto;
+    background-color: white;
+    display: inline-block;
+    transition: 0.5s; 
+}
+.nav-link:hover::after{
+    width: 100%;
+      
+} 
+.nav-link{
+    color: white !important;
+    
+}
+
+
+
+
+
+/* --------------------------------------First Section---------------------- */
+
+
+h1{
+  font-weight: bold;
+  color: #003566;
+    text-shadow:  5px 10px 15px #918686 !important;
+}
+
+
+.classImg{
+  background-image: url("../images/classImg1.jpg");
+  background-repeat: no-repeat;
+  height: 40vw;
+  background-size: 100%;
+  filter: contrast(1.65);
+}
+
+.classImg h1{
+  font-size: 3rem;
+  font-weight: bolder;
+  color: white;
+  padding: 2rem;
+  position: relative;
+  top: 5rem;
+}
+
+
+
+#cards_landscape_wrap-2{
+    text-align: center;
+    /* background: #deaaff; */
+  }
+  #cards_landscape_wrap-2 .container{
+     padding-top: 20px; 
+     padding-bottom: 40px; 
+  }
+  #cards_landscape_wrap-2 a{
+    text-decoration: none;
+    outline: none;
+  }
+  #cards_landscape_wrap-2 .card-flyer {
+    border-radius: 5px;
+  }
+  #cards_landscape_wrap-2 .card-flyer .image-box{
+    background: #ffffff;
+    overflow: hidden;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+    border-radius: 5px;
+  }
+  #cards_landscape_wrap-2 .card-flyer .image-box img{
+    -webkit-transition:all .9s ease; 
+    -moz-transition:all .9s ease; 
+    -o-transition:all .9s ease;
+    -ms-transition:all .9s ease; 
+    filter: contrast(1.65);
+    width: 100%;
+    height: 300px;
+  }
+  #cards_landscape_wrap-2 .card-flyer:hover .image-box img{
+    opacity: 0.7;
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.15);
+    transform:scale(1.15);
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box{
+    text-align: center;
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box .text-container{
+    padding: 30px 18px;
+  }
+  #cards_landscape_wrap-2 .card-flyer{
+    background: #FFFFFF;
+    margin-top: 50px;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+  }
+  #cards_landscape_wrap-2 .card-flyer:hover{
+    background: #fff;
+    box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    margin-top: 50px;
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box p{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px; 
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #000000;
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box h6{
+    margin-top: 0px;
+    margin-bottom: 4px; 
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Roboto Black', sans-serif;
+    letter-spacing: 1px;
+    color: black;
+  }
+
+  .text-box{
+     background-color: #deaaff;
+  }
+
+/* --------------------------------------Third Section---------------------- */
+
+
+
+
+.sixth h1{
+  color: #003566;
+text-shadow:  5px 10px 15px #918686 !important;
+}
+
+.social-icons{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.social-icons img{
+  width: 5vw !important;
+  transition: 0.5s;
+  
+  
+}
+.social-icons a:hover img{
+  transform: translateY(-1rem);
+}
+
+
+.footer{
+  background-color:#030561;
+  color: white;
+}
+.footer-box h5{
+  margin-bottom: 1.7rem;
+}
+
+.footer-img{
+  width: 100%;
+}
+
+.footer-box .fa{
+  margin-right: 0.5rem;
+  font-size: 1.3rem;
+  height: 3vw;
+  width: 3vw;
+  text-align: center;
+  padding-top: .5rem;
+  border-radius: .2rem;
+  background-image:linear-gradient(to right, #030561);
+}
+
+
+hr{
+  background-color: white;
+}
+
+
+@media (max-width:992px) {
+  html{
+      font-size: 60%;
+  }
+}
+@media(max-width:700px){
+html{
+  font-size: 30%;
+}
+}
+@media(max-width:668px){
+html{
+  font-size: 20%;
+}
+
+}
+@media(max-width:1200px){
+html{
+  font-size: 70%;
+}
+}
+
+
+
+
+
+
+/* --------------------------------------Footer Section---------------------- */
